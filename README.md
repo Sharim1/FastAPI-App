@@ -17,8 +17,8 @@ Note - You must have an active Azure account to use/test this app.
 	* APIKEY="Get it from the from Text Analytics resource once you have successfully created and deployed the same."
 	* ENDPOINT="Get it from exactly the same section as the API Key."
 	* INSTRUMENTATIONKEY="Get it from Application Insights Rescource Dashboard once you have successfully created and deployed the same."
-* `uvicorn main:app`
-* Visit `http://localhost:8000/docs` and start making request in below format -
+* `uvicorn main:app` to run and `uvicorn main:app --reload` to reload after some changes.
+* Visit `http://localhost:8000/docs` and you can start making request in below format -
 		`{"text_to_analyze":[
 												"Elon musk to acquire twitter for 44 billion dollars.",
 												"Today was the best day of my life."]
